@@ -2,6 +2,12 @@ hr {
     height: 4px;
     border: 0;
 }
+.main-logo {
+    max-width: 50%;
+}
+.main-logo img {
+    max-width: 100%;
+}
 .sidenav {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
@@ -43,6 +49,7 @@ hr {
 #main {
     transition: margin-left .5s;
     padding: 20px;
+    margin-left: 160px
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
