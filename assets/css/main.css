@@ -1,6 +1,7 @@
 hr {
     height: 4px;
     border: 0;
+    background-color: #0064FF;
 }
 .main-logo {
     max-width: 50%;
