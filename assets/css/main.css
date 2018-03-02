@@ -76,7 +76,7 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 300px) {
     #main {margin-left: 5px;}
 }
 body {
