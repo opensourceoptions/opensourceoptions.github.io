@@ -5,11 +5,7 @@
     <body onload="openNav()">
         {% include header.html %}
         <hr class="top-hr">
-        <div id="profiles">
-            <a href="#"><img src="assets/img/github_cut.svg"></a>
-            <a href="#"><img src="assets/img/email_cut.svg"></a>
-            <a href="#"><img src="assets/img/youtube_cut.svg"></a>
-        </div>
+        
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a href="#">Home</a>
@@ -25,6 +21,11 @@
 
         <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
         <div id="main">
+            <div id="profiles">
+            <a href="#"><img src="assets/img/github_cut.svg"></a>
+            <a href="#"><img src="assets/img/email_cut.svg"></a>
+            <a href="#"><img src="assets/img/youtube_cut.svg"></a>
+        </div>
           {{ content }}
         </div>
     </body>

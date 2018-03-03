@@ -5,7 +5,10 @@ html {
 body {
     background-color: #4c4c4c;
     margin: 5px 0px 5px 0px;
-    height: 100%
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
 }
 header{
     width: 100%;
@@ -49,10 +52,6 @@ header{
 }
 #profiles {
     text-align: right;
-    margin-right: 200px;
-    margin-left: 200px;
-    padding-top: 2px;
-    padding-right: 2px;
     background-color: #ffffff;
 }
 #profiles img:hover {
@@ -110,11 +109,14 @@ header{
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
     transition: margin-left .5s;
-    padding: 5px 5px 5px 10px;
+    padding: 5px 20px 5px 20px;
+/*
     margin-left: 200px;
-    margin-right: 200px;
+    margin-right: 400px;
+*/
+    margin: 10px 400px 10px 200px;
     background-color: #ffffff;
-    height: 100%
+    box-shadow: 10px 10px 4px
 }
 p {
     padding-left: 10px;
@@ -126,20 +128,13 @@ p {
     .sidenav a {font-size: 18px;}
 }
 @media screen and (max-width: 925px) {
-    #profiles {margin-right: 0px;}
     #main {margin-right: 0px;}
 }
 @media screen and (max-width: 725px) {
-    #profiles {margin-right: 0px; margin-left: 0px;}
     #main {margin-left: 0px; margin-right: 0px;}
     .main-logo img {height: 45px; padding-left: 8px;}
     .menu-button img {height: 30px; padding-left: 5px;}
     .main-logo {margin-left: 0px;}
-}
-body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
 }
 h2 {
     font-size: 28px;
