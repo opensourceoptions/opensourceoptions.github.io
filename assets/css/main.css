@@ -66,13 +66,21 @@ header{
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
-    top: 65px; /* Stay at the top */
+    top: 74px; /* Stay at the top */
     left: 0;
-    background-color: #111; /* Black*/
+    background-color: #383838;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     margin-bottom: 0px;
+}
+.sidenav li {
+    margin-left: 30px;
+    color: #a3a3a3;
+}
+
+.sidenav ul a {
+    padding-left: 0px;
 }
 
 /* The navigation menu links */
@@ -80,14 +88,15 @@ header{
     padding: 2px 8px 2px 32px;
     text-decoration: none;
     font-size: 20px;
-    color: #818181;
+    color: #a3a3a3;
     display: block;
     transition: 0.3s;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-    color: #f1f1f1;
+    color: #0064FF;
+    /*color: #f1f1f1;*/
 }
 
 /* Position and style the close button (top right corner) */
@@ -126,6 +135,15 @@ p {
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+}
+@media screen and (max-width: 1525px) {
+    #main {margin-right: 300px;}
+}
+@media screen and (max-width: 1325px) {
+    #main {margin-right: 200px;}
+}
+@media screen and (max-width: 1125px) {
+    #main {margin-right: 100px;}
 }
 @media screen and (max-width: 925px) {
     #main {margin-right: 0px;}
