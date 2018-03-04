@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "OSO: Home"
 ---
 # Header 1
 text
