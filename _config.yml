@@ -28,10 +28,18 @@ github_username:  opensourceoptions
 markdown: kramdown
 #theme: minima
 collections:
-    - python
-    - r
-    - cpp
-    - gis
+    python:
+        output: true
+        title: Python
+    r:
+        output: true
+        title: R
+    cpp:
+        output: true
+        title: C++
+    gis:
+        output: true
+        title: GIS
     
 plugins:
   - jekyll-feed
