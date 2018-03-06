@@ -27,6 +27,12 @@ github_username:  opensourceoptions
 # Build settings
 markdown: kramdown
 #theme: minima
+collections:
+    - python
+    - r
+    - cpp
+    - gis
+    
 plugins:
   - jekyll-feed
 
