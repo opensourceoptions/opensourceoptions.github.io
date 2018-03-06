@@ -119,40 +119,12 @@ header{
 #main {
     transition: margin-left .5s;
     padding: 5px 20px 5px 20px;
-/*
-    margin-left: 200px;
-    margin-right: 400px;
-*/
     margin: 10px 400px 10px 200px;
     background-color: #ffffff;
-    box-shadow: 10px 10px 4px
+    box-shadow: 2px 5px 5px
 }
 p {
     padding-left: 10px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
-@media screen and (max-width: 1525px) {
-    #main {margin-right: 300px;}
-}
-@media screen and (max-width: 1325px) {
-    #main {margin-right: 200px;}
-}
-@media screen and (max-width: 1125px) {
-    #main {margin-right: 100px;}
-}
-@media screen and (max-width: 925px) {
-    #main {margin-right: 0px;}
-}
-@media screen and (max-width: 725px) {
-    #main {margin-left: 0px; margin-right: 0px;}
-    .main-logo img {height: 45px; padding-left: 8px;}
-    .menu-button img {height: 30px; padding-left: 5px;}
-    .main-logo {margin-left: 0px;}
 }
 h2 {
     font-size: 28px;
@@ -162,9 +134,65 @@ h3 {
     font-size: 24px;
     color: #6b81a3;
 }
+.copyright {
+    font-weight: 400;
+    padding: 0px;
+    margin: 10px
+}
 footer {
-    text-align: right;
+    text-align: center;
+    margin: 20px 400px 0px 200px;
+}
+footer nav{
+    margin-bottom: 5px;
 }
 footer #profiles {
     background-color: #4c4c4c;
+    text-align: center;
+    margin-bottom: 5px
+}
+footer #profiles img {
+    opacity: 0.5;
+}
+footer nav a {
+    color: black;
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer nav a:hover {
+    color: #0064FF;
+    text-decoration: underline;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+@media screen and (max-width: 1525px) {
+    #main {margin-right: 300px;}
+    footer {margin-right: 300px;}
+}
+@media screen and (max-width: 1325px) {
+    #main {margin-right: 200px;}
+    footer {margin-right: 200px;}
+}
+@media screen and (max-width: 1125px) {
+    #main {margin-right: 100px;}
+    footer {margin-right: 100px;}
+}
+@media screen and (max-width: 925px) {
+    #main {margin-right: 0px;}
+    footer {margin-right: 0px; margin-left: 200px}
+}
+@media screen and (max-width: 725px) {
+    #main {margin-left: 0px; margin-right: 0px;}
+    footer {margin-left: 0px; margin-right: 0px;}
+    .main-logo img {height: 45px; padding-left: 8px;}
+    .menu-button img {height: 30px; padding-left: 5px;}
+    .main-logo {margin-left: 0px;}
 }
