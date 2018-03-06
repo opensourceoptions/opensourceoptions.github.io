@@ -162,3 +162,9 @@ h3 {
     font-size: 24px;
     color: #6b81a3;
 }
+footer {
+    text-align: right;
+}
+footer #profiles {
+    background-color: #4c4c4c;
+}
