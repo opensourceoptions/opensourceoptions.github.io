@@ -26,39 +26,6 @@ header{
     margin-bottom: 0px;
     clear: both;
 }
-.copyright {
-    font-weight: 400;
-    padding: 0px;
-    margin: 10px
-}
-footer {
-    text-align: center;
-    margin: 20px 400px 0px 200px;
-}
-footer nav{
-    margin-bottom: 5px;
-}
-footer #profiles {
-    background-color: #4c4c4c;
-    text-align: center;
-    margin-bottom: 5px
-}
-footer #profiles img {
-    opacity: 0.5;
-}
-footer nav a {
-    color: black;
-    display: inline-block;
-    font-weight: 600;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-footer nav a:hover {
-    color: #0064FF;
-    text-decoration: underline;
-}
 .menu-button{
     float: left;
     margin-left: 0px
@@ -156,18 +123,58 @@ footer nav a:hover {
     background-color: #ffffff;
     box-shadow: 2px 5px 5px
 }
+.page-title {
+    font-size: 32px;
+    text-align: center;
+    font-weight: bolder;
+}
 p {
     padding-left: 10px;
 }
-h2 {
+h1 {
     font-size: 28px;
+}
+h2 {
+    font-size: 24px;
     color: #535d6d;
 }
 h3 {
-    font-size: 24px;
+    font-size: 20px;
     color: #6b81a3;
 }
-
+.copyright {
+    font-weight: 400;
+    padding: 0px;
+    margin: 10px
+}
+footer {
+    text-align: center;
+    margin: 20px 400px 0px 200px;
+}
+footer nav{
+    margin-bottom: 5px;
+}
+footer #profiles {
+    background-color: #4c4c4c;
+    text-align: center;
+    margin-bottom: 5px
+}
+footer #profiles img {
+    opacity: 0.4;
+}
+footer nav a {
+    color: black;
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer nav a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+}
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
