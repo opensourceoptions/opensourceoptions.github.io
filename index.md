@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "OSO: Home"
+title: "Open Source Options"
 ---
 # Header 1
 text
