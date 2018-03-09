@@ -10,7 +10,7 @@ title: Python Tutorials
     <h2>{{ group.name }}</h2>
     
     {% for item in group.items %}
-        {{ item.title }}
+        <a href="{{ item.url }}">{{ item.title }}</a>
     {% endfor %}
     
 {% endfor %}
