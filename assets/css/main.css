@@ -1,6 +1,7 @@
 html {
     background-color: #ffffff;
-    height: 100%
+    padding: 0px;
+    margin: 0px;
 }
 body {
     background-color: #4c4c4c;
@@ -25,6 +26,26 @@ header{
     margin-top: 0px;
     margin-bottom: 0px;
     clear: both;
+}
+.gray-toc {
+    background-color: #9a9ca0;
+    display: inline-block;
+}
+.gray-toc ul {
+    padding: 5px 10px 5px 10px;
+    list-style-type: none;
+}
+.gray-toc li {
+    margin-left: 0px;
+}
+#main a {
+    color: #0064FF;
+    text-decoration: none;
+    font-weight: bold;
+}
+#main a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
 }
 .menu-button{
     float: left;
@@ -128,6 +149,7 @@ header{
     text-align: center;
     font-weight: bolder;
 }
+
 p {
     padding-left: 10px;
 }
