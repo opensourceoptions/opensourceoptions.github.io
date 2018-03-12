@@ -7,10 +7,12 @@ title: Python Tutorials
 
 {% for group in groups %}
 
-    <h2>{{ group.name }}</h2>
+    <h1>{{ group.name }}</h1>
+    <ul>
     
     {% for item in group.items %}
-        <a href="{{ item.url }}">{{ item.title }}</a>
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
     {% endfor %}
+    </ul>
     
 {% endfor %}
