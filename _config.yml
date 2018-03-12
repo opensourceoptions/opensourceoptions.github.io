@@ -31,15 +31,19 @@ collections:
     python:
         output: true
         title: Python
+        name: python
     r:
         output: true
         title: R
+        name: r
     cpp:
         output: true
         title: C++
+        name: cpp
     gis:
         output: true
         title: GIS
+        name: gis
     
 plugins:
   - jekyll-feed
