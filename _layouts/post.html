@@ -27,10 +27,16 @@
                 <a href="https://www.youtube.com/c/KonradHafen"><img src="{{ 'assets/img/youtube_cut.svg' | relative_url }}"></a>
             </div>
             <div class="page-title">{{ page.category }}: {{ page.title }}</div>
+            <div class="prevnext-top">
+            {% include prevnext.html %}
+            </div>
             <div class="gray-toc">
-                {% include toc.html html=content %}
+                {% include toc.html html=content ordered=true h_max=2%}
             </div>
             {{ content }}
+            <div class="prevnext-bottom">
+            {% include prevnext.html %}
+            </div>
         </div>
         {% include footer.html %}
     </body>

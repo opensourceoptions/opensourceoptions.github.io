@@ -3,10 +3,14 @@ layout: post
 title: 01 Introduction to numpy
 category: numpy
 ---
-# Tutorial objectives
+# Objectives
 1. Teach the basics of using `numpy` in python
 2. Provide applications for using `numpy`
 3. Introduce advance `numpy` applications
+
+# Requirements
+
+# Who should take this tutorial?
 
 # What is numpy?
 
