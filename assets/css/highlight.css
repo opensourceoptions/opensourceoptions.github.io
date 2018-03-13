@@ -61,3 +61,4 @@
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 .highlight pre code {display: block;}
 .highlight pre { white-space: pre; overflow: auto; background-color: #e5e5e5; padding-left: 5px;}
+code {background: #e5e5e5;}
