@@ -28,6 +28,8 @@ header{
     clear: both;
 }
 .gray-toc {
+    width: 40%;
+    float: left;
     background-color: #e5e5e5;
     display: inline-block;
     margin-top: 10px;
@@ -92,6 +94,9 @@ header{
 #profiles img {
     height: 35px;
     opacity: 0.7;
+}
+#profiles .repo-button {
+    padding-right: 5%;
 }
 .sidenav {
     height: 100%; /* 100% Full-height */
@@ -161,6 +166,18 @@ header{
     font-weight: bolder;
     background-color: #e5e5e5;
     box-shadow: 2px 2px 2px;
+}
+.post-top {
+    width: 100%;
+    margin: auto;
+}
+.prevnext-top {
+    width: 40%;
+    float: left;
+    text-align: right;
+}
+.content {
+    clear: both;
 }
 
 p {
@@ -238,4 +255,14 @@ footer nav a:hover {
     .main-logo img {height: 45px; padding-left: 8px;}
     .menu-button img {height: 30px; padding-left: 5px;}
     .main-logo {margin-left: 0px;}
+}
+.prev
+{
+    padding-right: 10px;
+}
+.next {
+    padding-left: 10px;
+}
+.prevnext-bottom {
+    text-align: center;
 }

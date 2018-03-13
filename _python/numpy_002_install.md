@@ -2,6 +2,7 @@
 layout: post
 title: 02 Install numpy
 category: numpy
+repo: "https://github.com/opensourceoptions/numpy-tutorials"
 ---
 
 # Check installation

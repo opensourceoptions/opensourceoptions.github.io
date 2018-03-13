@@ -22,18 +22,24 @@
         <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
         <div id="main">
             <div id="profiles">
+                <a class="repo-button" href="{{page.repo}}"><img src="{{ 'assets/img/github_repo.svg' | relative_url }}"></a>
                 <a href="https://github.com/opensourceoptions"><img src="{{ 'assets/img/github_cut.svg' | relative_url}}"></a>
                 <a href="mailto:contact@opensourceoptions.com"><img src="{{ 'assets/img/email_cut.svg' | relative_url }}"></a>
                 <a href="https://www.youtube.com/c/KonradHafen"><img src="{{ 'assets/img/youtube_cut.svg' | relative_url }}"></a>
             </div>
             <div class="page-title">{{ page.category }}: {{ page.title }}</div>
-            <div class="prevnext-top">
-            {% include prevnext.html %}
+            
+            <div class="post-top">
+                <div class="gray-toc">
+                    {% include toc.html html=content ordered=true h_max=2%}
+                </div>
+                <div class="prevnext-top">
+                    {% include prevnext.html %}
+                </div>
             </div>
-            <div class="gray-toc">
-                {% include toc.html html=content ordered=true h_max=2%}
+            <div class="content">
+                {{ content }}
             </div>
-            {{ content }}
             <div class="prevnext-bottom">
             {% include prevnext.html %}
             </div>

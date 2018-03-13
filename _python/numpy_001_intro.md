@@ -2,6 +2,7 @@
 layout: post
 title: 01 Introduction to numpy
 category: numpy
+repo: "https://github.com/opensourceoptions/numpy-tutorials"
 ---
 # Objectives
 1. Teach the basics of using `numpy` in python
