@@ -29,19 +29,24 @@
             </div>
             <div class="page-title">{{ page.category }}: {{ page.title }}</div>
             
+            <div class="prevnext-bottom">
+            {% include prevnext_top.html %}
+            </div>
             <div class="post-top">
                 <div class="gray-toc">
                     {% include toc.html html=content ordered=true h_max=2%}
                 </div>
+<!--
                 <div class="prevnext-top">
-                    {% include prevnext.html %}
+                    {% include prevnext_top.html %}
                 </div>
+-->
             </div>
             <div class="content">
                 {{ content }}
             </div>
             <div class="prevnext-bottom">
-            {% include prevnext.html %}
+            {% include prevnext_top.html %}
             </div>
         </div>
         {% include footer.html %}

@@ -21,8 +21,8 @@
 
   <p>
       {% if posts.size > 1 %}
-        {% if prevurl %}<a href="{{prevurl}}" class="prev"><img src="{{ 'assets/img/prev_text.svg' | relative_url }}"></a>{% endif %}
-        {% if nexturl %}<a href="{{nexturl}}" class="next"><img src="{{ 'assets/img/next_text.svg' | relative_url }}"></a>{% endif %}
+        {% if prevurl %}<a href="{{prevurl}}" class="prev"><img src="{{ 'assets/img/prev_arrow.svg' | relative_url }}"></a>{% endif %}
+        {% if nexturl %}<a href="{{nexturl}}" class="next"><img src="{{ 'assets/img/next_arrow.svg' | relative_url }}"></a>{% endif %}
       {% endif %}
   </p>
 {% endif %}

@@ -28,13 +28,14 @@ header{
     clear: both;
 }
 .gray-toc {
-    width: 40%;
+/*    width: 40%;*/
     float: left;
     background-color: #e5e5e5;
     display: inline-block;
-    margin-top: 10px;
-    padding-right: 30px;
+    margin-top: 0px;
+    margin-bottom: 20px;
     box-shadow: 2px 2px 2px;
+    padding-right: 3%;
 }
 .gray-toc ul {
     padding: 0px 5px 0px 5px;
@@ -179,6 +180,9 @@ header{
 .content {
     clear: both;
 }
+a img:hover {
+    opacity: 1.0;
+}
 
 p {
     padding-left: 10px;
@@ -258,11 +262,21 @@ footer nav a:hover {
 }
 .prev
 {
-    padding-right: 10px;
+    padding-right: 5px;
+}
+.prev img {
+    height: 25px;
+    opacity: 0.7;
 }
 .next {
-    padding-left: 10px;
+    padding-left: 5px;
+}
+.next img {
+    height: 25px;
+    opacity: 0.7;
 }
 .prevnext-bottom {
     text-align: center;
+    margin: 0px;
+    padding: 0px;
 }
