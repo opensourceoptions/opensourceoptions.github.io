@@ -183,7 +183,11 @@ header{
 a img:hover {
     opacity: 1.0;
 }
-
+.in-text
+{
+    height: 25px;
+    opacity: 0.7;
+}
 p {
     padding-left: 10px;
 }
