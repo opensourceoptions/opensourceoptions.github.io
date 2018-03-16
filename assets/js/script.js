@@ -6,3 +6,9 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
+
+function openNavBody() {
+    if ($(window).width() > 725) {
+        openNav();
+    } 
+}
