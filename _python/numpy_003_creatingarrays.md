@@ -40,8 +40,8 @@ TypeError: data type not understood
 We need to specify the values that will be part of the array inside of square brackets`[]` and separated by commas `,`. This is done as follows.
 
 {% highlight python %}
-a = np.array([1,2,3,4,5])
-print a
+a1d = np.array([1,2,3,4,5])
+print a1d
 {% endhighlight %}
 
 Your output should look like this, an array that contains the values 1 through 5.
@@ -62,7 +62,7 @@ Your output should look like this, an array that contains the values 1 through 5
 2D arrays are frequently used to represent grids and store geospatial data. You will see them frequently in many data science applications. We also create 2D arrays using `numpy.array()`, but instead of giving just one list of values in square brackets we give multiple lists, with each list representing a row in the 2D array. This is done as follows.
 
 {% highlight python %}
-a = np.array([
+a2d = np.array([
 [1,2,3],
 [1,2,3],
 [1,2,3]
@@ -72,7 +72,7 @@ a = np.array([
 Notice that there is a set of square brackets surrounding all three 1D arrays and that each 1D array is separated by a comma. We can print the variable `a` to get the same 2D array shown above.
 
 {% highlight python %}
-print a
+print a2d
 {% endhighlight %}
 {% highlight python %}
 [[1 2 3]
@@ -107,7 +107,7 @@ Layer 3
 With `numpy` this array can be created using `numpy.array()` with the following code.
 
 {% highlight python %}
-a = np.array([
+a3d = np.array([
 [
 [1,2,3],
 [1,2,3],
@@ -129,7 +129,7 @@ a = np.array([
 We can print the array to see the result.
 
 {% highlight python %}
-print a
+print a3d
 {% endhighlight %}
 
 {% highlight python %}
