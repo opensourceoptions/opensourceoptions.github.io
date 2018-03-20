@@ -56,6 +56,5 @@ Requires:
 
 # Video tutorial
 This video will walk you through installing/updating `numpy` using `pip`.
-<div class="intrinsic-container intrinsic-container-16x9">
-<iframe src="https://www.youtube.com/embed/7A3VJgGsSow" allowfullscreen></iframe>
-</div>
+
+<div class="intrinsic-container intrinsic-container-ws"><iframe src="https://www.youtube.com/embed/7A3VJgGsSow" frameborder="0" allowfullscreen></iframe></div>
