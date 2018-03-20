@@ -1,0 +1,17 @@
+---
+layout: default
+title: Python Tutorials Home
+---
+{% assign groups = site.python | group_by: "category" %}
+
+{% for group in groups %}
+
+<h1>{{ group.name }}</h1>
+
+<ul>
+{% for item in group.items %}
+    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+{% endfor %}
+</ul>
+    
+{% endfor %}
