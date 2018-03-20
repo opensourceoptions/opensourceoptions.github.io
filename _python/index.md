@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Python Tutorials Home
+title: Python Tutorials
 ---
 {% assign groups = site.python | group_by: "category" %}
 
@@ -10,7 +10,9 @@ title: Python Tutorials Home
 
 <ul>
 {% for item in group.items %}
+    {% if item.title != page.title %}
     <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% endif %}
 {% endfor %}
 </ul>
     

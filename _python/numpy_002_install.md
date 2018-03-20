@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: tutorial
 title: 02 Install numpy
 category: numpy
 repo: "https://github.com/opensourceoptions/numpy-tutorials"

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: tutorial
 title: 01 Introduction to numpy
 category: numpy
 repo: "https://github.com/opensourceoptions/numpy-tutorials"
