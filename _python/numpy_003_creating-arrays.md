@@ -2,7 +2,7 @@
 layout: tutorial
 title: 03 Creating arrays
 category: numpy
-repo: "https://github.com/opensourceoptions/numpy-tutorials/blob/master/numpy01.py"
+repo: "https://github.com/opensourceoptions/numpy-tutorials/blob/master/numpy003_CreatingArrays.py"
 ---
 {% highlight python %}
 {% endhighlight %}
