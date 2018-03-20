@@ -146,5 +146,12 @@ print a3d
   [1 2 3]]]
 {% endhighlight %}
 
+# Video tutorial
+This video will visually walk you through the steps completed in this tutorial using the terminal/command line. The code in the video can also be executed using a python script. 
+
+<div class="intrinsic-container intrinsic-container-16x9">
+<iframe src="https://www.youtube.com/embed/SMK6wFav8FE" allowfullscreen></iframe>
+</div>
+
 # What's next?
-Now you know how to use `numpy` to create 1D, 2D and 3D arrays. Next we will cover how to access data from `numpy` arrays with array indexing.
+Now you know how to use `numpy` to create 1D, 2D and 3D arrays. Next we will cover array shapes, reshaping arrays, and automatic array creation.
