@@ -149,6 +149,8 @@ print a3d
 # Video tutorial
 This video will visually walk you through the steps completed in this tutorial using the terminal/command line. The code in the video can also be executed using a python script. 
 
+<div class="intrinsic-container intrinsic-container-ws"><iframe src="https://www.youtube.com/embed/SMK6wFav8FE" frameborder="0" allowfullscreen></iframe></div>
+
 <div class="intrinsic-container intrinsic-container-16x9">
 <iframe src="https://www.youtube.com/embed/SMK6wFav8FE" allowfullscreen></iframe>
 </div>

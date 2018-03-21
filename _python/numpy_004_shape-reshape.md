@@ -315,9 +315,7 @@ Notice we now have the same values, in the same order, without the extra square 
 
 # Video tutorial
 
-<div class="intrinsic-container intrinsic-container-16x9">
-<iframe src="" allowfullscreen></iframe>
-</div>
+<div class="intrinsic-container intrinsic-container-ws"><iframe src="" frameborder="0" allowfullscreen></iframe></div>
 
 # What's next?
 We're moving along on the `numpy` basics, and have built up a strong base understanding of how to create and shape `numpy` arrays. Next, we will save ourselves some time by learing a few methods to automate array creation.
