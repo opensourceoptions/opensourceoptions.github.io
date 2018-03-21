@@ -1,0 +1,8 @@
+---
+layout: tutorial
+title: 05 Methods for creating arrays
+category: numpy
+repo: "https://github.com/opensourceoptions/numpy-tutorials/blob/master/numpy005_MethodsToCreateArrays.py"
+---
+{% highlight python %}
+{% endhighlight %}
