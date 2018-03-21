@@ -151,9 +151,5 @@ This video will visually walk you through the steps completed in this tutorial u
 
 <div class="intrinsic-container intrinsic-container-ws"><iframe src="https://www.youtube.com/embed/SMK6wFav8FE" frameborder="0" allowfullscreen></iframe></div>
 
-<div class="intrinsic-container intrinsic-container-16x9">
-<iframe src="https://www.youtube.com/embed/SMK6wFav8FE" allowfullscreen></iframe>
-</div>
-
 # What's next?
 Now you know how to use `numpy` to create 1D, 2D and 3D arrays. Next we will cover array shapes, reshaping arrays, and automatic array creation.
