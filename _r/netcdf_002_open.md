@@ -7,7 +7,8 @@ repo: "https://github.com/opensourceoptions/r-netcdf-tutorials"
 {% highlight r %}
 {% endhighlight %}
 
-Let's get right into the code. First, if make sure you have the `ncdf4` package installed. This requires the netcdf4 and hdf5 software to be installed. netcdf4 and hdf5 are not r packages. There are various sources for installing these on your machine. I found this [guide](https://gist.github.com/perrette/cd815d03830b53e24c82) to work well for Ubuntu.
+# Install and load packages and software
+Let's get right into the code. First, make sure you have the `ncdf4` package installed. This requires the netcdf4 and hdf5 software to be installed. netcdf4 and hdf5 are not r packages. There are various sources for installing these on your machine. I found this [guide](https://gist.github.com/perrette/cd815d03830b53e24c82) to work well for Ubuntu.
 
 {% highlight r %}
 #install netcdf4 if not alread installed
@@ -22,6 +23,7 @@ Once all dependencies are installed we can load the `ncdf4` package.
 library(ncdf4)
 {% endhighlight %}
 
+# Open a netCDF file
 With `ncdf4` loaded we are ready to read in a NetCDF file. The file I use is included in the [GitHub repository]({{ page.repo }}) for this tutorial. The `file.choose()` function allows you to interactively choose a file from your system.
 
 {% highlight r %}
@@ -30,6 +32,7 @@ With `ncdf4` loaded we are ready to read in a NetCDF file. The file I use is inc
 nc <- nc_open(file.choose())
 {% endhighlight %}
 
+# Print netCDF information
 Now that the file has been opened we can `print` the `nc` variable to see its metadata. Thiss will tell us the data type, dimensions, data units, and other information about the dataset
 
 {% highlight r %}
@@ -69,3 +72,15 @@ This is the output for the file included in the repository.
     note3: Citation: Westwide Drought Tracker, http://www.wrcc.dri.edu/monitor/WWDT
 {% endhighlight %}
 
+## Metadata description
+The above output provides us with much important metadata about the netCDF file. First, it shows the file contains one variable named 'data'. The data type of 'data' is float, it is unitless, its values represent the Self Calibrated Palmer Drought Severity Index, and the no data value is -9999.
+
+Dimensions, and dimension units are also reported, along wiht a coordinate system reference. Global attributes provide more information about the dataset including title, author, creation date, and notes.
+
+# Video tutorial
+The first part of this video goes through the steps presented in the code above. The second part of the video is covered on the next page of the website.It can be accessed by clicking the next button <img class="in-text" src="{{ 'assets/img/next_arrow.svg' | relative_url }}"> at the top or bottom of the page. **Note:** this video uses a different netcdf file than the one included with the repository for this tutorial.
+
+<div class="intrinsic-container intrinsic-container-ws"><iframe src="https://www.youtube.com/embed/DvfTZSJLRfw" frameborder="0" allowfullscreen></iframe></div>
+
+# What's next?
+Now that we have read the metadata for this file, the next lesson will go through how to pull the data out of the netcdf file so it can be used for analysis in R. Click the 'next' button<img class="in-text" src="{{ 'assets/img/next_arrow.svg' | relative_url }}"> below to continue!
