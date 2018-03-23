@@ -4,5 +4,20 @@ title: 05 Methods for creating arrays
 category: numpy
 repo: "https://github.com/opensourceoptions/numpy-tutorials/blob/master/numpy005_MethodsToCreateArrays.py"
 ---
+
+It is tedious, and not practical, to manually type in values for array creation. In this tutorial we will go through methods for automating array creation and importing tabular data into `numpy` arrays. 
+
+# Creating empty arrays
+
+# Filling arrays
+
+## `numpy.fill()`
+
+## `numpy.zeros()`
+
+## `numpy.ones()`
+
+# Import data
+
 {% highlight python %}
 {% endhighlight %}
