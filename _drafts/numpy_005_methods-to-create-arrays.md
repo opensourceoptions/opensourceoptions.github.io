@@ -105,11 +105,116 @@ print z
 {% endhighlight %}
 
 ## `numpy.ones()`
+As you might guess, `numpy.ones()` does the same thing as `numpy.zeros()`, except it fills the array with a value of one instead of zero. 
+
+The code below creates a 3x4 array of ones with an integer data type.
+
+{% highlight python %}
+#create an array of ones
+o = np.ones((3,4), dtype=np.int)
+{% endhighlight %}
+
+{% highlight python %}
+print o
+
+[[1 1 1 1]
+ [1 1 1 1]
+ [1 1 1 1]]
+{% endhighlight %}
 
 ## `numpy.arange()`
+`numpy.arange()` is a very useful function to fill an array with a sequence of numbers. This function requires 1-4 arguments. A brief explanation of the arguments will be given here, with the details illustrated in code examples below. The first argument is required and specifies a starting value, or a number of values. The second specifies a stopping value. The thrid specifies a step values. The fourth is the same `dtype` argument we've used before which specifies the data type of the array.
+
+If only the `start` argument is specified, an array ranging from zero to `start` will be returned. Let's give this a try with a start value of 2.
+
+{% highlight python %}
+#create an array with 2 sequential elements
+a = np.arange(2)
+{% endhighlight %}
+
+This will result in an array with two elements. Those elements will be 0 and 1.
+
+{% highlight python %}
+print a
+
+[0 1]
+{% endhighlight %}
+
+We can specify both a `start` and `stop` value to include any consecutive sequence of numbers in an array.
+
+{% highlight python %}
+#create an array with the values 5-10
+a = np.arange(5,11)
+{% endhighlight %}
+
+Let's check our work to make sure we get the expected result.
+
+{% highlight python %}
+print a
+
+[ 5  6  7  8  9 10]
+{% endhighlight %}
+
+If we want all even numbers from 10 - 30, we can add the step variable of 2, as follows.
+
+{% highlight python %}
+#create an array with even values from 10-30
+a = np.arange(10,31,2)
+{% endhighlight %}
+
+Again, let's check our work.
+
+{% highlight python %}
+print a
+
+[10 12 14 16 18 20 22 24 26 28 30]
+{% endhighlight %}
+
+Notice that `numpy.arange()` only creates 1D arrays. That could be somewhat inconvenient if we're looking for a multidimensional array. Luckily, we can add `numpy.reshape()` on the end to change the shape of the resulting array. Let's try this by creating a 3x3 array that ranges from 0 to 8.
+
+{% highlight python %}
+#create a 3x3 array ranging from 0 to 8
+a = np.arange(9).reshape((3,3))
+{% endhighlight %}
+
+Again, we'll check our work.
+
+{% highlight python %}
+print a
+
+[[0 1 2]
+ [3 4 5]
+ [6 7 8]]
+{% endhighlight %}
+
+Now let's try for a 3x3x3 array ranging from 0 to 26.
+
+{% highlight python %}
+#create a 3x3x3 array ranging from 0 to 26
+a = np.arange(27).reshape((3,3,3))
+{% endhighlight %}
+
+And check our work.
+
+{% highlight python %}
+print a
+
+[[[ 0  1  2]
+  [ 3  4  5]
+  [ 6  7  8]]
+
+ [[ 9 10 11]
+  [12 13 14]
+  [15 16 17]]
+
+ [[18 19 20]
+  [21 22 23]
+  [24 25 26]]]
+{% endhighlight %}
 
 # Import tabular data to an array
 
+# More to learn
 
 {% highlight python %}
 {% endhighlight %}
