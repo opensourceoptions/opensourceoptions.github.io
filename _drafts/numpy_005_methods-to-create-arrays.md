@@ -48,14 +48,68 @@ print b
 That's simple enough, but you may want to create an array that doesn't just contain random values. We'll cover some other options for this next.
 
 # Filling arrays
+Filling arrays with a value is task you will perform repeatedly. In the sections below we'll go over how to fill arrays, and initialize arrays with zeros ones, and a range of numbers.
 
 ## `numpy.fill()`
+`numpy.fill()` is used to fill an array with a certain value. It takes one argument. The value to fill. This will replace every element in an array with the fill value specified. Let's give this a test with the array `a` we created above.
+
+{% highlight python %}
+#fill a with the value 99.99
+a.fill(99.99)
+{% endhighlight %}
+
+{% highlight python %}
+print a
+
+[[99.99 99.99]
+ [99.99 99.99]]
+{% endhighlight %}
+
+Now let's try the same with the array `b` we created above. Rember that the data type of `b` is integer and the data type of `a` is float. So here we're trying to fill an integer array with a float value. Let's see what happens.
+
+{% highlight python %}
+#fill b with the value 99.99
+b.fill(99.99)
+{% endhighlight %}
+
+No error was thrown. Let's see what the output is.
+
+{% highlight python %}
+print b
+
+[[99 99 99]
+ [99 99 99]
+ [99 99 99]
+ [99 99 99]
+ [99 99 99]]
+{% endhighlight %}
+
+Notice how 99.99 was truncated to the integer 99, but the array was still filled. It is not advisable to fill with a different data type than the array, but important to note that `numpy` will still do it.
 
 ## `numpy.zeros()`
+`numpy.zeros()` will create an array filled with zeros. It takes the same arguments as `numpy.empty()`, but returns and array of zeros instead of an array of random values.
+
+The code below creates 3x4 array of zeros with a float data type.
+
+{% highlight python %}
+#create an array of zeros
+z = np.zeros((3,4), dtype=np.float32)
+{% endhighlight %}
+
+{% highlight python %}
+print z
+
+[[0. 0. 0. 0.]
+ [0. 0. 0. 0.]
+ [0. 0. 0. 0.]]
+{% endhighlight %}
 
 ## `numpy.ones()`
 
+## `numpy.arange()`
+
 # Import tabular data to an array
+
 
 {% highlight python %}
 {% endhighlight %}
