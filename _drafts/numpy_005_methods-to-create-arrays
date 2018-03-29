@@ -8,6 +8,44 @@ repo: "https://github.com/opensourceoptions/numpy-tutorials/blob/master/numpy005
 It is tedious, and not practical, to manually type in values for array creation. In this tutorial we will go through methods for automating array creation and importing tabular data into `numpy` arrays. 
 
 # Creating empty arrays
+With `numpy` you don't actually create an 'empty' array. But you can create and array without intializing specific values. This can be useful if you want to fill in specific values later. We can use `numpy.empty()` function to create such an array. `numpy.empty()` takes one required parameter, the array shape, and two optional parameters. The output data type (`dtype`) and an option to store multidimensional in a C or Fortran format (`order`). We're not going to deal with `order` at all in these examples. `numpy.empty()` will return an array of the given `shape` and `dtype` with random values.
+
+Let's try a couple of examples. 
+
+First, we'll create a 2x2 array of floats.
+
+{% highlight python %}
+a = np.empty((2,2), dtype=np.float32)
+{% endhighlight %}
+
+The result is a 2x2 array with random float values at each position.
+
+{% highlight python %}
+print a
+
+[[-8.799504e-38  4.580144e-41]
+ [ 6.733703e-38  0.000000e+00]]
+{% endhighlight %}
+
+Now let's try a 5x3 array of ints.
+
+{% highlight python %}
+b = np.empty((5,3), dtype=np.int)
+{% endhighlight %}
+
+The result is a 5x3 array with a random integer at each position.
+
+{% highlight python %}
+print b
+
+[[140383186029544        27373376        23859568]
+ [       23859568        23859568        23859568]
+ [       23859568        23859568 140382964520496]
+ [             49        27373456        28563248]
+ [140383186029448 140383186029448             128]]
+{% endhighlight %}
+
+That's simple enough, but you may want to create an array that doesn't just contain random values. We'll cover some other options for this next.
 
 # Filling arrays
 
@@ -17,7 +55,7 @@ It is tedious, and not practical, to manually type in values for array creation.
 
 ## `numpy.ones()`
 
-# Import data
+# Import tabular data to an array
 
 {% highlight python %}
 {% endhighlight %}
