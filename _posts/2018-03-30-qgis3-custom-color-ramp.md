@@ -4,7 +4,7 @@ title:  "Custom Color Ramps with QGIS 3.0"
 date:   2018-03-30
 category: qgis
 ---
-# QGIS 3.0 makes color ramps easy
+
 The most recent release of QGIS 3.0 has introduced a lot of great new features. One of these is the ability to easily create and save custom color ramps. This post will walk through how to create and apply a color ramp to raster data. Color ramps can also be easily applied to vector data. 
 
 # Data
