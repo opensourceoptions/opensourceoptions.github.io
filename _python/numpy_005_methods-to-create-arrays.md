@@ -8,7 +8,7 @@ repo: "https://github.com/opensourceoptions/numpy-tutorials/blob/master/numpy005
 It is tedious, and not practical, to manually type in values for array creation. In this tutorial we will go through methods for automating array creation and importing tabular data into `numpy` arrays. 
 
 # Creating empty arrays
-With `numpy` you don't actually create an 'empty' array. But you can create and array without intializing specific values. This can be useful if you want to fill in specific values later. We can use `numpy.empty()` function to create such an array. `numpy.empty()` takes one required parameter, the array shape, and two optional parameters. The output data type (`dtype`) and an option to store multidimensional in a C or Fortran format (`order`). We're not going to deal with `order` at all in these examples. `numpy.empty()` will return an array of the given `shape` and `dtype` with random values.
+With `numpy` you don't actually create an 'empty' array. But you can create an array without intializing specific values. This can be useful if you want to fill in specific values later. We can use the `numpy.empty()` function to create such an array. `numpy.empty()` takes one required parameter, the array shape, and two optional parameters. The output data type (`dtype`) and an option to store multidimensional arrays in a C or Fortran format (`order`). We're not going to deal with `order` at all in these examples. `numpy.empty()` will return an array of the given `shape` and `dtype` with random values.
 
 Let's try a couple of examples. 
 
@@ -48,7 +48,7 @@ print b
 That's simple enough, but you may want to create an array that doesn't just contain random values. We'll cover some other options for this next.
 
 # Filling arrays
-Filling arrays with a value is task you will perform repeatedly. In the sections below we'll go over how to fill arrays, and initialize arrays with zeros ones, and a range of numbers.
+Filling arrays with a value is task you will perform repeatedly. In the sections below we'll go over how to fill arrays, and initialize arrays with zeros, ones, and a range of numbers.
 
 ## `numpy.fill()`
 `numpy.fill()` is used to fill an array with a certain value. It takes one argument. The value to fill. This will replace every element in an array with the fill value specified. Let's give this a test with the array `a` we created above.
@@ -65,7 +65,7 @@ print a
  [99.99 99.99]]
 {% endhighlight %}
 
-Now let's try the same with the array `b` we created above. Rember that the data type of `b` is integer and the data type of `a` is float. So here we're trying to fill an integer array with a float value. Let's see what happens.
+Now let's try the same with the array `b` we created above. Remember that the data type of `b` is integer and the data type of `a` is float. So here we're trying to fill an integer array with a float value. Let's see what happens.
 
 {% highlight python %}
 #fill b with the value 99.99
@@ -87,7 +87,7 @@ print b
 Notice how 99.99 was truncated to the integer 99, but the array was still filled. It is not advisable to fill with a different data type than the array, but important to note that `numpy` will still do it.
 
 ## `numpy.zeros()`
-`numpy.zeros()` will create an array filled with zeros. It takes the same arguments as `numpy.empty()`, but returns and array of zeros instead of an array of random values.
+`numpy.zeros()` will create an array filled with zeros. It takes the same arguments as `numpy.empty()`, but returns an array of zeros instead of an array of random values.
 
 The code below creates 3x4 array of zeros with a float data type.
 
@@ -123,7 +123,7 @@ print o
 {% endhighlight %}
 
 ## `numpy.arange()`
-`numpy.arange()` is a very useful function to fill an array with a sequence of numbers. This function requires 1-4 arguments. A brief explanation of the arguments will be given here, with the details illustrated in code examples below. The first argument is required and specifies a starting value, or a number of values. The second specifies a stopping value. The thrid specifies a step values. The fourth is the same `dtype` argument we've used before which specifies the data type of the array.
+`numpy.arange()` is a very useful function to fill an array with a sequence of numbers. This function requires 1-4 arguments. A brief explanation of the arguments will be given here, with the details illustrated in code examples below. The first argument is required and specifies a starting value, or a number of values. The second specifies a stopping value. The thrid specifies a step value. The fourth is the same `dtype` argument we've used before, which specifies the data type of the array.
 
 If only the `start` argument is specified, an array ranging from zero to `start` will be returned. Let's give this a try with a start value of 2.
 
@@ -213,7 +213,7 @@ print a
 {% endhighlight %}
 
 # Import tabular data to an array
-Sometimes you may have data that have already been compiles and you want to load them into an array. This section will cover how to create an array from tabular data. I have included the file `importdata.csv` in the GitHub repository for this tutorial as an example file you can use. `importdata.csv` contains the data to fill a 4x10 array. 
+Sometimes you may have data that have already been compiled and you want to load them into an array. This section will cover how to create an array from tabular data. I have included the file `importdata.csv` in the GitHub repository for this tutorial as an example file you can use. `importdata.csv` contains the data to fill a 4x10 array. 
 
 The data in the file look like this:
 
@@ -224,7 +224,7 @@ The data in the file look like this:
 43.2, 67.2, 57.2, 39.3, 19.3, 2.3, 5.4, 9.8, 45.8, 44.4
 {% endhighlight %}
 
-We'll use `numpy.genfromtext()` to import data fromt the csv file. `genfromtext()` has a number of parameters. I will only go over a few of them in this tutorial. You can find a description of all parameters in the [numpy documentation](https://docs.scipy.org/doc/numpy/reference/generated/numpy.genfromtxt.html). The three parameters we'll use are `fname` which specifies the path of the file to load data from, `dtype` which we know specifies the data type, and `delimiter` which specifies the character separating the values in the file. The file name we'll use is importdata.csv it contains floating point values, delimied by a comma (,). Now that we know the information let's read in the data.
+We'll use `numpy.genfromtext()` to import data fromt the csv file. `genfromtext()` has a number of parameters. I will only go over a few of them in this tutorial. You can find a description of all parameters in the [numpy documentation](https://docs.scipy.org/doc/numpy/reference/generated/numpy.genfromtxt.html). The three parameters we'll use are `fname`, which specifies the path of the file to load data from, `dtype`, which we know specifies the data type, and `delimiter`,s which specifies the character separating the values in the file. The file name we'll use is importdata.csv it contains floating point values, delimied by a comma (,). Now that we know the information let's read in the data.
 
 {% highlight python %}
 #create array from inputdata.csv
@@ -241,6 +241,8 @@ print a
  [ 4.9  9.3  9.3 88.3  2.1 65.2  8.3  5.6  5.   7.9]
  [43.2 67.2 57.2 39.3 19.3  2.3  5.4  9.8 45.8 44.4]]
 {% endhighlight %}
+
+# Video tutorial
 
 # More to learn
 This is just an introduction to creating arrays with `numpy`. Many other options for array creation exist. We may cover some of these in future tutorials. If you didn't find what you were looking for here, the `numpy` documentation also provides many more [array creation routines](https://docs.scipy.org/doc/numpy-1.14.0/reference/routines.array-creation.html).

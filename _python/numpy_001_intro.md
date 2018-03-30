@@ -13,7 +13,7 @@ repo: "https://github.com/opensourceoptions/numpy-tutorials"
 # Objectives
 1. Teach the basics of using `numpy` in python
 2. Provide data science applications of `numpy`
-3. Introduce advanced `numpy` numpy concepts
+3. Introduce advanced `numpy` concepts
 
 # What is numpy?
 `numpy` is a powerful python package for handling arrays. It uses `C` libraries to optimize procedures that would otherwise be slow/computationally expensive in python.
