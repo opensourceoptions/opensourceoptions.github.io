@@ -50,12 +50,12 @@ This will open the 'Select Color Ramp' dialog. This is where we can set the prop
 ## Gradient stops
 Add the following gradient stops to recreate the green, brown, white elevational color ramp.
 
-Position: 00.0% RGB: 0, 120, 0
-Position: 28.0% RGB: 89, 86, 0
-Position: 47.0% RGB: 119, 75, 0
-Position: 60.0% RGB: 146, 110, 49
-Position: 74.0% RGB: 173, 146, 101
-Position: 100% RBG: 255, 255, 255
+- Position: 00.0% RGB: 0, 120, 0
+- Position: 28.0% RGB: 89, 86, 0
+- Position: 47.0% RGB: 119, 75, 0
+- Position: 60.0% RGB: 146, 110, 49
+- Position: 74.0% RGB: 173, 146, 101
+- Position: 100% RBG: 255, 255, 255
 
 <div class="main-img">
     <img src="">
