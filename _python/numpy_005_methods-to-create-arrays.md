@@ -244,6 +244,8 @@ print a
 
 # Video tutorial
 
+<div class="intrinsic-container intrinsic-container-ws"><iframe src="https://www.youtube.com/embed/BpV7h6r-GNY" frameborder="0" allowfullscreen></iframe></div>
+
 # More to learn
 This is just an introduction to creating arrays with `numpy`. Many other options for array creation exist. We may cover some of these in future tutorials. If you didn't find what you were looking for here, the `numpy` documentation also provides many more [array creation routines](https://docs.scipy.org/doc/numpy-1.14.0/reference/routines.array-creation.html).
 
