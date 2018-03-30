@@ -205,6 +205,24 @@ h3 {
     font-size: 22px;
     color: #6b81a3;
 }
+.main-img img {
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-img p {
+    max-width: 90%;
+    font-size: 14px;
+    color: #535d6d;
+    font-style: italic;
+    padding-left: 0px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .intrinsic-container {
   position: relative;
   height: 0;

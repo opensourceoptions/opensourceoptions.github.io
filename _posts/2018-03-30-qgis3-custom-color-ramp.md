@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Custom Color Ramps with QGIS 3.0"
-date:   2018-03-16
+date:   2018-03-30
 category: qgis
 ---
 # QGIS 3.0 makes color ramps easy
@@ -24,11 +24,6 @@ When displaying DEMs, I like to include a hillshade underneath to give better co
 
 ## Add raster and set symbology renderer
 The raster will most likely be symbolized on a the QGIS default black to white color ramp. Double click the raster (DEM) in the Layers (table of contents) panel. This opens the layer properties. Click the style tab on the left. Now change the render type from 'Singleband gray' to 'Singleband pseudocolor'. You will now have the option to select various color ramps that come with packaged with QGIS.
-
-<div class="main-img">
-    <img src="">
-    <p>Logan River Watershed DEM.</p>
-</div>
 
 ## Create new color ramp
 Instead of using one of the QGIS ramps we want to create our own custom ramp. To this click the down arrow (triangle) directly to the right of the color ramp graphic. Select 'Create new color ramp'. 
