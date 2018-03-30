@@ -58,17 +58,12 @@ Add the following gradient stops to recreate the green, brown, white elevational
 - Position: 100% RBG: 255, 255, 255
 
 <div class="main-img">
-    <img src="">
+    <img src="https://lh3.googleusercontent.com/DG6EZMIAqiVjEGtHarMl2d5D8TmJa7RqWjp4abWJg9E3ieV0qzJNSAkIV6Y9ocYJNNn7R9j9MJHucLEjDg_bczrkWdi_uh2RY3VnbEeG-g66tagiHDAjZ4Le6jFEfdO0IpmWjYBo44EiSjVJFUMhXg2CHAh4k_rVcr6ktxYY7VS7E8TLIKWWOZF1tTSE3sFs6hz2UsNLVddMxVxI-OPEzLtofOa7VHZNjy-KueX_FOkAlkKoTSFX-yXefz24VEgN859l0TGaNKTPBU5hxveLq03zxyLrkCPYhjaXk2oy0p6WdnMskIAcOYdL-RStRqs6utsNFkxVbnmFYMUR_e4-IMrndwZgOZa_m8iIOpYnpB1uv_ZwTOZegBTMPqFXzj8NNS7d6-4ApnThzaA4_e5VZ1sHaIpZwzYmnDJJQ6Axsq_-vGukC_xSQ4e7ByzdYGSgFQoRbyXDmrQoH2J3irv7ulBaiKMDjD1PLXfgwPIC3Xm4M1BFLBb9EDYyHBnRbdBcGbzDhzll54LCNZNl7ylsF8NP60OZbNV7rZ_zI1Yn1NoXmkdN763lfAWrCqZxdOsOL1wJr3Zx24RO2SCU0hhhckYBf5ypCS3u1HIj_em-=w875-h670-no">
     <p>If you created the color ramp with the gradient stops above it should look like this.</p>
 </div>
 
 ## Save the new color ramp
 Hopefully you've been able to successfully reproduce the color ramp, or create one of your own. You can now save it for use again in the future. Save the color ramp by once again clicking the down arrow (triangle) to the right of the color ramp display in the style properties window. This time select 'Save color ramp'. Now you can type in a name and tags for color ramp. This will make it easy to find in the future.
-
-<div class="main-img">
-    <img src="https://lh3.googleusercontent.com/DG6EZMIAqiVjEGtHarMl2d5D8TmJa7RqWjp4abWJg9E3ieV0qzJNSAkIV6Y9ocYJNNn7R9j9MJHucLEjDg_bczrkWdi_uh2RY3VnbEeG-g66tagiHDAjZ4Le6jFEfdO0IpmWjYBo44EiSjVJFUMhXg2CHAh4k_rVcr6ktxYY7VS7E8TLIKWWOZF1tTSE3sFs6hz2UsNLVddMxVxI-OPEzLtofOa7VHZNjy-KueX_FOkAlkKoTSFX-yXefz24VEgN859l0TGaNKTPBU5hxveLq03zxyLrkCPYhjaXk2oy0p6WdnMskIAcOYdL-RStRqs6utsNFkxVbnmFYMUR_e4-IMrndwZgOZa_m8iIOpYnpB1uv_ZwTOZegBTMPqFXzj8NNS7d6-4ApnThzaA4_e5VZ1sHaIpZwzYmnDJJQ6Axsq_-vGukC_xSQ4e7ByzdYGSgFQoRbyXDmrQoH2J3irv7ulBaiKMDjD1PLXfgwPIC3Xm4M1BFLBb9EDYyHBnRbdBcGbzDhzll54LCNZNl7ylsF8NP60OZbNV7rZ_zI1Yn1NoXmkdN763lfAWrCqZxdOsOL1wJr3Zx24RO2SCU0hhhckYBf5ypCS3u1HIj_em-=w875-h670-no">
-    <p>If you created the color ramp with the gradient stops above it should look like this.</p>
-</div>
 
 # Displaying the DEM
 I'm not going to apply my new elevation color ramp to my Logan River watershed DEM. Remember, I have a hillshade layered underneath this DEM. To get a better elevational effect, I'll make the DEM slightly transparent so the hillshade shows through. This is accomplished by opening the layer properties (double-click, or right click on the layer) and selecting the 'Transparency' option. Then adjust the 'Global opacity' slider. I've found an opacity of about 60% works well for DEM display.
