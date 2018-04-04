@@ -4,7 +4,7 @@
 
     <body onload="openNavBody()">
         {% include header.html %}
-        <hr class="top-hr">
+<!--        <hr class="top-hr">-->
         
         {% include sidenav.html %}
 
@@ -12,6 +12,7 @@
         <div id="main">
             {% include profiles.html %}
             <div class="page-title">{{ page.title }}</div>
+            <hr class="top-hr">
           {{ content }}
         </div>
         {% include footer.html %}
