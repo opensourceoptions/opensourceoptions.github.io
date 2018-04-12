@@ -2,4 +2,4 @@
 layout: default
 title: Courses
 ---
-Courses are currently in development, but will be posted on [udemy.com](https://www.udemy.com/user/konrad-hafen/) in the next two months. We will make announcements on the [blog](http://opensourceoptions.com/blog) when the courses are posted.
+Courses created by OpenSourceOptions are listed below. Announcements will be posted on the [blog](http://opensourceoptions.com/blog) as new courses are created. All courses can be accessed from the [OpenSourceOptions teachable page](https://opensourceoptions.teachable.com).
