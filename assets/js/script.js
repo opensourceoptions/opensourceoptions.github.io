@@ -1,17 +1,3 @@
-function openNav() {
-    document.getElementById("mySidenav").style.width = "200px";
-}
-
-/* Set the width of the side navigation to 0 */
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
-
-function openNavBody() {
-    if ($(window).width() > 725) {
-        openNav();
-    } 
-}
 // When the user scrolls the page, execute myFunction 
 window.onscroll = function() {myFunction()};
 
@@ -28,4 +14,19 @@ function myFunction() {
   } else {
     header.classList.remove("sticky");
   }
+}
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "200px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+
+function openNavBody() {
+    if ($(window).width() > 725) {
+        openNav();
+    } 
 }
