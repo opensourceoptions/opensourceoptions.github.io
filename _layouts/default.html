@@ -9,6 +9,14 @@
         {% include sidenav.html %}
 
         <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+        <div class="sticky-header" id="stickyheader>
+            <nav>
+                <a href="/">Home</a>
+                <a href="/tutorials">Tutorials</a>
+                <a href="/blog">Blog</a>
+                <a href="/about">About</a>
+            </nav>
+        </div>
         <div id="main">
             {% include profiles.html %}
             <div class="page-title">{{ page.title }}</div>
