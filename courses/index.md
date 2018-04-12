@@ -7,4 +7,4 @@ Courses created by OpenSourceOptions are listed below. Announcements will be pos
 # Courses
 
 ## [Develop Python Plugins for QGIS 3](https://opensourceoptions.teachable.com/p/develop-python-plugins-for-qgis-3)
-Use python plugins to extend QGIS geoprocessing and import imagery from Google, ESRI, and Bing.
+Use Python plugins to extend QGIS geoprocessing and import imagery from Google, ESRI, and Bing.
