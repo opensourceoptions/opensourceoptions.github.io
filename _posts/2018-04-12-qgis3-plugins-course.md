@@ -5,7 +5,7 @@ date: 2018-04-12
 category: courses
 ---
 
-The first OpenSourceOptions course is live! **The course is available for a promotional price of $10 through the end of April!** Access the course through our [courses page](https://opensourceoptions.teachable.com), or visit https://opensourceoptions.teachable.com.
+The first OpenSourceOptions course is live! **The course is available for a promotional price of $10 through the end of April!** Access the course through our [courses page](https://opensourceoptions.teachable.com), or visit <https://opensourceoptions.teachable.com>.
 
 # Develop Python Plugins for QGIS 3.0.1
 I've created a course all about developing custon python plugins for the newest version of QGIS (3.0.1). The course contains about 2.5 hours of video lectures in which you will make two QGIS plugins. The video below gives an intro of the course and demos the plugins you will create. If you want a taste of the course before signing up, the first seven video lectures are available on YouTube. You can click on the video below to get to the playlist.
