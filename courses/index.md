@@ -6,5 +6,8 @@ Courses created by OpenSourceOptions are listed below. Announcements will be pos
 
 # Courses
 
+## [Make Professional Maps with QGIS and Inkscape](https://opensourceoptions.teachable.com/courses/make-professional-maps-with-qgis-and-inkscape)
+Gain the skills to produce original, professional, and aesthetically pleasing maps using free software.
+
 ## [Develop Python Plugins for QGIS 3](https://opensourceoptions.teachable.com/p/develop-python-plugins-for-qgis-3)
 Use Python plugins to extend QGIS geoprocessing and import imagery from Google, ESRI, and Bing.
