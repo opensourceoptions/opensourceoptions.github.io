@@ -13,12 +13,9 @@ category: QGIS Imagery Servers
 3. Right click on 'XYZ tiles'
 4. Select 'New Connection'
 5. Enter a connection name (e.g. Google Satellite)
-6. Enter the URL for the imagery service. For Google Satellite imagery the URL is:
-
-{% highlight bash %}
+6. Enter the URL for the imagery service. For Google Satellite imagery the URL is: {% highlight bash %}
 https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}
 {% endhighlight %}
-
 7. Select 'OK'
 8. Add the layer to the map canvas
 
