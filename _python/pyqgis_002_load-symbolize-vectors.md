@@ -35,7 +35,7 @@ In this case I leave the layer name empty (the layer name will be the file name)
 and set the data provide to `'ogr'`.
 
 {% highlight python %}
-rlayer = iface.addVectorLayer(fn, '', 'ogr')
+layer = iface.addVectorLayer(fn, '', 'ogr')
 {% endhighlight %}
 
 This adds the layer into the QGIS interface with default symbology. We'll
