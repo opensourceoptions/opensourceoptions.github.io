@@ -1,6 +1,6 @@
 ---
 layout: tutorial
-title: 01 Loading and symbolizing raster layers
+title: 02 Loading and symbolizing vector layers
 category: pyqgis
 repo: https://github.com/opensourceoptions/pyqgis-tutorials/blob/master/01_load-symbolize-vectors.py
 ---
