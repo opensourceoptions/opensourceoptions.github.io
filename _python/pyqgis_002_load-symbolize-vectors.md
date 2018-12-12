@@ -12,7 +12,7 @@ More information can be found in the [PyQGIS Developer Cookbook](https://docs.qg
 - Apply basic and graduated symbology
 
 # Open the QGIS Python Console
-From the menu, select Plugins -> Python Console, or Ctrl + Alt + P (windows)
+From the menu, select Plugins -> Python Console, or Ctrl + Alt + P (Windows)
 
 You can type directly into the console, or select the pad and paper icon to
 write code in the editor. I prefer to write code in the editor because
