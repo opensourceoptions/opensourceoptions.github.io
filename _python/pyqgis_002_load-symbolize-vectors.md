@@ -231,3 +231,8 @@ And our layer is symbolized!
     <img src="https://lh3.googleusercontent.com/W2z4bddXaj4butnS4L583U3Vx0f01HX-wEMnPgsjndhGdutkAtKD-RuqBwq09SZp2KwstIm2awPxZ-LbfTMB86LA_iAUQqcXRsubkBUpJw8CTS8pNLiztA2OC7exoTvNj8MTasakrJWmNpVq7y5HkzEWf6BNokR6k1h5o74bdmf2M8wmurQIyEcZwSmH10k7MOZdYrDAfiLOID-8gJ41MXG4KfOQsbZGh_rYvdTmHsUUIbOX391S-zqW_j7_5aVouX3W7qCnoHg180b78qDoCc4IgU7OuJLNxjzjBCWB_mRthi4H5RzS30f_1emBZxBbJLGAF8af2mykmPKrEhnNURtt_sUHKzqVhb3CHTG7V6aWo98-VbzMu_CoAnltBZYycro36uz2tGQph6zauqO-4Fpc49T8pRKHVeBah2Pqanosbxs00jqUovvn6H2G8YK0zGjZGGI8V0mS_R1UeJm8F3R2JCa_Meu2cldDng1lEQ-sUKeisoARO6f8tlGp5lMU2ipCPWRaA30IPJ78GO6xHu8U4le6KcJcQKQTR_jwaWCI22kLq9dGatWsYuGAxxLOw4b26jDrAWgJe5wj8hQhQWSjthuC9pKqgpnz2ezZcYYgT1VJ_RMKydj20QfgnOVXIYFjMYpJk31qNoiwYdRMH4AjulVYNvByRiJwFxOjWMCKdCgzInYqyDDhzTtkygYxi2iWtC_F4VOV6HBpCQ=w982-h522-no">
     <p>Layer with graduated symbology.</p>
 </div>
+
+# Video tutorial
+See this tutorial described in a video.
+
+<div class="intrinsic-container intrinsic-container-ws"><iframe src="https://www.youtube.com/embed/Wv7GjBrAeE4" frameborder="0" allowfullscreen></iframe></div>
