@@ -2,7 +2,10 @@
 layout: tutorial
 title: 01 Loading and symbolizing raster layers
 category: pyqgis
+repo: https://github.com/opensourceoptions/pyqgis-tutorials/blob/master/01_load-symbolize-rasters.py
 ---
+
+More information can be found in the [PyQGIS Developer Cookbook](https://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/)
 
 # Requirements
 - QGIS version 3.0, or greater
