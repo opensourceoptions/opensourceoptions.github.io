@@ -111,3 +111,8 @@ rlayer.setRenderer(renderer)
 There you have it. You can watch the video below to see the results of my
 raster symbolization. In a future tutorial we'll cover how to use functions to
 make more complicated color ramps for rasters.
+
+# Video tutorial
+See this tutorial described in a video.
+
+<div class="intrinsic-container intrinsic-container-ws"><iframe src="https://www.youtube.com/embed/W5_3H2UWYms" frameborder="0" allowfullscreen></iframe></div>
