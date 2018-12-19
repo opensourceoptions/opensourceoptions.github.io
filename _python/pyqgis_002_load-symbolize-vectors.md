@@ -28,8 +28,8 @@ raster file.
 fn = 'c:/path/to/shapefile.shp'
 {% endhighlight %}
 
-## Load raster into QGIS interface
-Now we'll simultaneously assign the raster layer to the `layer` variable and
+## Load vector layer into QGIS interface
+Now we'll simultaneously assign the vector layer to the `layer` variable and
 load it into the QGIS interface. We need to provide a layer and data provider.
 In this case I leave the layer name empty (the layer name will be the file name),
 and set the data provide to `'ogr'`.
