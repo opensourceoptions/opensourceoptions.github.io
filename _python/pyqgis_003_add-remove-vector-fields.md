@@ -27,11 +27,14 @@ layer = iface.addVectorLayer(fn, '', 'ogr')
 {% endhighlight %}
 
 ## Get layer capabilities
-{% highlight python %}
+Now we'll get the layer capabilities. This will allow us to make sure we can add and delete fields of the layer. This is done by calling `capabilities()` on the layer's data provider.
 
+{% highlight python %}
+caps = layer.dataProvider().capabilities()
 {% endhighlight %}
 
 # Add fields
+To add a field we'll first make sure the layer has the proper capabilities. If it does we'll add the field. The code below demonstrates confirming the layer capabilities and adding two fields ('New1' and 'New2') to the layer. Once the fields are added we update the layer with `updateFields()`.
 {% highlight python %}
 
 {% endhighlight %}
