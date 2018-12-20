@@ -35,13 +35,40 @@ caps = layer.dataProvider().capabilities()
 
 # Add fields
 To add a field we'll first make sure the layer has the proper capabilities. If it does we'll add the field. The code below demonstrates confirming the layer capabilities and adding two fields ('New1' and 'New2') to the layer. Once the fields are added we update the layer with `updateFields()`.
-{% highlight python %}
 
+{% highlight python %}
+if caps & QgsVectorDataProvider.AddAttributes:
+    res = layer.dataProvider().addAttributes([QgsField('New1', QVariant.String),
+    QgsField('New2', QVariant.String)])
+    layer.updateFields()
 {% endhighlight %}
 
 # Delete fields
 
 ## Loop through fields
-{% highlight python %}
+Before deleting fields you may want to loop through the existing fields and print field names to the console. This can be done as follows.
 
+{% highlight python %}
+for field in layer.fields():
+    print(field.name())
 {% endhighlight %}
+
+The output will be field names.
+
+## Delete fields
+We delete fields in a very similar way to adding fields. First check the layer capabilities, delete fields, and update fields. This example shows deletion of two fields by the field index.
+
+{% highlight python %}
+if caps & QgsVectorDataProvider.DeleteAttributes:
+    res = layer.dataProvider().deleteAttributes([7,8])
+    layer.updateFields()
+{% endhighlight %}
+
+# Video tutorials
+## Adding and deleting fields
+
+<div class="intrinsic-container intrinsic-container-ws"><iframe src="https://www.youtube.com/embed/NpezagWMHtg" frameborder="0" allowfullscreen></iframe></div>
+
+## Looping through fields
+
+<div class="intrinsic-container intrinsic-container-ws"><iframe src="https://www.youtube.com/embed/W_CH3SPN1oE" frameborder="0" allowfullscreen></iframe></div>
