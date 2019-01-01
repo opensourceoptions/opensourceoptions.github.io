@@ -2,7 +2,7 @@
 layout: tutorial
 title: 05 Get raster band statistics
 category: pyqgis
-repo:
+repo: https://github.com/opensourceoptions/pyqgis-tutorials/blob/master/05_raster-stats.py
 ---
 
 More information can be found in the [PyQGIS Developer Cookbook](https://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/)
