@@ -36,8 +36,7 @@ rlayer = iface.addRasterLayer(fn, 'layer name')
 {% endhighlight %}
 
 This adds the raster into the QGIS interface. In the legend, the raster is
-labeled 'layer name'. My raster is symbolized with a grayscale color ramp.
-We'll change the symbology next.
+labeled 'layer name'. 
 
 # Query raster value at a point
 You'll need to know the coordinates of a point that falls somewhere with the area your raster layer covers. The coordinates will need to be in the same units as the projection used to display your layer. For this example, the layer is displayed in a NAD83 UTM projection, so the units are meters. We'll query values using two different methods.
