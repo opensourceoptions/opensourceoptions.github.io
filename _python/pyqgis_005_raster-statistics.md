@@ -8,7 +8,7 @@ repo: https://github.com/opensourceoptions/pyqgis-tutorials/blob/master/05_raste
 More information can be found in the [PyQGIS Developer Cookbook](https://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/)
 
 # Objectives
-- Query the value of a raster layer at a points
+- Get statistics for a raster band
 
 # Open the QGIS Python Console
 From the menu, select Plugins -> Python Console, or Ctrl + Alt + P (Windows)
@@ -37,6 +37,26 @@ rlayer = iface.addRasterLayer(fn, 'layer name')
 
 This adds the raster into the QGIS interface. In the legend, the raster is
 labeled 'layer name'.
+
+# Get raster band statistics
+PyQGIS makes it very easy to get statistics from a raster band, we simply need to call `bandStatistics()` on the raster layer's data provider. We give two arguments, the band number and the statistic to return. I find it's easiest to return all the band statistics, then access the specific statistics from the object that is returned.
+
+{% highlight python %}
+#get statistics for raster band 1
+stats = rlayer.dataProvider().bandStatistics(1, QgsRasterBandStats.All)
+{% endhighlight %}
+
+No we can access specific statistics, such as minimum, maximum, and mean using the `stats` variable.
+
+{% highlight python %}
+print(stats.minimumValue)
+print(stats.minimumValue)
+print(stats.mean)
+print(stats.range)
+print(stats.stdDev)
+print(stats.sum)
+print(stats.sumOfSquares)
+{% endhighlight %}
 
 # Video tutorial
 See this tutorial described in a video.
