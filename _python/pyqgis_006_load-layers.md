@@ -8,7 +8,7 @@ repo: https://github.com/opensourceoptions/pyqgis-tutorials/blob/master/06_load-
 More information can be found in the [PyQGIS Developer Cookbook](https://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/)
 
 # Objectives
-- Get statistics for a raster band
+- Load raster and vector layers without adding them to the QGIS interface
 
 # Open the QGIS Python Console
 From the menu, select Plugins -> Python Console, or Ctrl + Alt + P (Windows)
