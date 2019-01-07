@@ -1,6 +1,6 @@
 ---
 layout: tutorial
-title: 06 Load layers without adding to QGIS interface
+title: 07 Get info from layers in the QGIS interface
 category: pyqgis
 repo: https://github.com/opensourceoptions/pyqgis-tutorials/blob/master/06_load-layers.py
 ---
