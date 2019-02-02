@@ -1,6 +1,6 @@
 ---
 layout: tutorial
-title: 05 Get raster band statistics
+title: 08 Access vector layer attributes
 category: pyqgis
 repo: https://github.com/opensourceoptions/pyqgis-tutorials/blob/master/08_access-vector-layer-attributes.py
 ---
