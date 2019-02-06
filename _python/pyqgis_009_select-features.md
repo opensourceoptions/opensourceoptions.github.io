@@ -8,6 +8,7 @@ More information can be found in the [PyQGIS Developer Cookbook](https://docs.qg
 
 # Objectives
 - Select features from a vector layer
+- Iterate over selected features
 
 # Open the QGIS Python Console
 From the menu, select Plugins -> Python Console, or Ctrl + Alt + P (Windows)
@@ -89,6 +90,7 @@ through those features. The code below shows how to iterate over a selection
 and print out an attribute.
 
 {% highlight python %}
+# retrieve selected features
 selection = layer.selectedFeatures()
 # iterate over selected features
 for feat in selection:
